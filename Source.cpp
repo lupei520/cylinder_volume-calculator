@@ -13,7 +13,7 @@ int main()
 	cout << "Enter the height of the cylinder\n";
 	cin >> height;
 	
-	vol = pi *pow(rad, 2);		//volume of the cylinder in m^3
+	vol = pi *pow(rad, 2)*height;		//volume of the cylinder in m^3
 	fvol = vol * 1000;		//volume of the cylinder in litres
 
 	cout << "the volume of the cylinder" << fvol << "L(" << vol << "m^3)" << endl;
